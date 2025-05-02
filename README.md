@@ -1,2 +1,2 @@
-# ICS/OT Lab for Security Aspects in Application Areas - Team 1
+# ICS/OT Lab - Team 1
 
