@@ -451,7 +451,7 @@
         <mxCell id="VKOAm4PS5T9e-uiGa1T0-6" value="vmbr2 vlan3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="662.8" y="1026.45" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VKOAm4PS5T9e-uiGa1T0-7" value="SW5 vmbr2 vlan2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-7" value="vmbr2 vlan2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="662.8" y="1204.33" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VKOAm4PS5T9e-uiGa1T0-8" value="Note: The switches are simulated using the Proxmox bridge vmbr and VLANS." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
