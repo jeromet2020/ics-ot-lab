@@ -439,19 +439,19 @@
         <mxCell id="AVaXKjLe-Aqcqu84f5md-9" value="vmbr1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="595" y="526.8" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VKOAm4PS5T9e-uiGa1T0-2" value="SW1&lt;div&gt;vmbr2&lt;div&gt;vlan1&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-2" value="&lt;br&gt;&lt;div&gt;vmbr2&lt;div&gt;vlan6&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="687.3199999999999" y="564" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VKOAm4PS5T9e-uiGa1T0-3" value="SW2 vmbr2 vlan2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-3" value="vmbr2 vlan5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="662.8" y="667.75" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VKOAm4PS5T9e-uiGa1T0-5" value="SW3 vmbr2 vlan3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-5" value="vmbr2 vlan4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="672.9499999999999" y="870" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VKOAm4PS5T9e-uiGa1T0-6" value="SW4 vmbr2 vlan4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-6" value="vmbr2 vlan3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="662.8" y="1026.45" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VKOAm4PS5T9e-uiGa1T0-7" value="SW5 vmbr2 vlan5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-7" value="SW5 vmbr2 vlan2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="662.8" y="1204.33" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VKOAm4PS5T9e-uiGa1T0-8" value="Note: The switches are simulated using the Proxmox bridge vmbr and VLANS." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
