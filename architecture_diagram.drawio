@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="G2JBihj3mz_vLXmrCChw">
-    <mxGraphModel dx="837" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="831" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,8 +167,8 @@
         <mxCell id="VzEyl7pLeXNEImk8ZBch-18" value="IDMZ-SQL" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.sql_server;container=0;" parent="1" vertex="1">
           <mxGeometry x="546.930344827586" y="841.4400000000002" width="29.67310344827586" height="38.68" as="geometry" />
         </mxCell>
-        <mxCell id="VzEyl7pLeXNEImk8ZBch-22" value="Malicious site&lt;div&gt;(Kali Linux)&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Virus_128x128.png" parent="1" vertex="1">
-          <mxGeometry x="557.71" y="416" width="36" height="36" as="geometry" />
+        <mxCell id="VzEyl7pLeXNEImk8ZBch-22" value="Malicious site&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Kali Linux&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;222.222.222.222)&lt;/span&gt;&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Virus_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="557.71" y="408" width="36" height="36" as="geometry" />
         </mxCell>
         <mxCell id="VzEyl7pLeXNEImk8ZBch-24" value="Remote User" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="460" y="410" width="36" height="36" as="geometry" />
@@ -421,23 +421,41 @@
         <mxCell id="VzEyl7pLeXNEImk8ZBch-164" value="OT" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fontStyle=1;fillColor=#FDF5E6;strokeColor=#D35400;" parent="1" vertex="1">
           <mxGeometry x="-37.24" y="1171.57" width="661" height="29.89" as="geometry" />
         </mxCell>
-        <mxCell id="AVaXKjLe-Aqcqu84f5md-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.488;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="VzEyl7pLeXNEImk8ZBch-28" target="AVaXKjLe-Aqcqu84f5md-2">
+        <mxCell id="AVaXKjLe-Aqcqu84f5md-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.488;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" parent="1" source="VzEyl7pLeXNEImk8ZBch-28" target="AVaXKjLe-Aqcqu84f5md-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="667" y="575" as="sourcePoint" />
             <mxPoint x="667" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AVaXKjLe-Aqcqu84f5md-2" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="AVaXKjLe-Aqcqu84f5md-2" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" parent="1" vertex="1">
           <mxGeometry x="640.0541176470588" y="513.5914285714285" width="55.29411764705882" height="56.410714285714285" as="geometry" />
         </mxCell>
-        <mxCell id="AVaXKjLe-Aqcqu84f5md-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="VzEyl7pLeXNEImk8ZBch-66">
+        <mxCell id="AVaXKjLe-Aqcqu84f5md-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="VzEyl7pLeXNEImk8ZBch-66" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="675" y="520" as="sourcePoint" />
             <mxPoint x="680" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AVaXKjLe-Aqcqu84f5md-9" value="vmbr1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="AVaXKjLe-Aqcqu84f5md-9" value="vmbr1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="595" y="526.8" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-2" value="SW1&lt;div&gt;vmbr2&lt;div&gt;vlan1&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="687.3199999999999" y="564" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-3" value="SW2 vmbr2 vlan2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="662.8" y="667.75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-5" value="SW3 vmbr2 vlan3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="672.9499999999999" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-6" value="SW4 vmbr2 vlan4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="662.8" y="1026.45" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-7" value="SW5 vmbr2 vlan5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="662.8" y="1204.33" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-8" value="Note: The switches are simulated using the Proxmox bridge vmbr and VLANS." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1540" width="267.56" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
