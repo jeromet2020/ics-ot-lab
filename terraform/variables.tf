@@ -1,0 +1,31 @@
+variable "vms" {
+  type = list(object({
+    name           = string
+    target_node    = string
+    clone_template = string
+    full_clone     = bool
+    cores          = number
+    sockets        = number
+    cpu_type       = string
+    memory         = number
+    disk_type      = string
+    disk_size      = string
+    disk_storage   = string
+    nic_model      = string
+    nic0_bridge    = string
+    nic0_tag       = number
+    nic1_bridge    = string
+    nic1_tag       = number
+    nic2_bridge    = string
+    nic2_tag       = number
+    ipconfig0      = string
+    ipconfig1      = string
+    ipconfig2      = string
+    nameserver     = string
+    searchdomain   = string
+    username       = string
+    password       = string
+    bootdisk       = string
+    scsihw         = string
+  }))
+}
