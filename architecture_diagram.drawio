@@ -472,11 +472,14 @@
         <mxCell id="VKOAm4PS5T9e-uiGa1T0-14" value="&lt;span style=&quot;caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;10.21.2.0/24&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="379.99999999999994" y="1145.21" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VKOAm4PS5T9e-uiGa1T0-15" value=".1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-15" value=".5.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="623.76" y="614.27" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VKOAm4PS5T9e-uiGa1T0-16" value=".1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-16" value=".6.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="666.76" y="600.38" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VKOAm4PS5T9e-uiGa1T0-17" value=".5.2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="625.3199999999999" y="785" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
