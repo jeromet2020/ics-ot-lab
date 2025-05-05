@@ -39,6 +39,22 @@ check_latest_version=false
 metadata_services=cloudbaseinit.metadata.services.configdrive.ConfigDriveService
 ```
 
+* If using Windows 10/11 clients, follow instructions from the "Cloudbase-Init and Sysprep" section in this link:
+
+https://pve.proxmox.com/wiki/Cloud-Init_Support
+
+Add these to "RunSynchronousCommand" section in the Unattend.xml file:
+```
+        <RunSynchronousCommand wcm:action="add">
+          <Path>net user administrator /active:yes</Path>
+          <Order>1</Order>
+          <Description>Enable Administrator User</Description>
+        </RunSynchronousCommand>
+        <RunSynchronousCommand wcm:action="add">
+```
+
+Make sure to set the <Order>1</Order> to higher or lower number if there is another "RunSynchronousCommand" entry with same Order numbe.
+
 * Launch sysprep with these commands
 ```
 cd "C:\Program Files\Cloudbase Solutions\Cloudbase-Init\conf"
