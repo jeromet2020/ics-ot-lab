@@ -8,4 +8,3 @@
 * [Configuring Proxmox to allow the use of Terraform](https://github.com/jeromet2020/ics-ot-lab/blob/main/Configuring%20Proxmox%20to%20allow%20terraform.md)
 
 * [Terraform Confguration](https://github.com/jeromet2020/ics-ot-lab/tree/main/terraform)
-

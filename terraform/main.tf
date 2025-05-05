@@ -16,6 +16,7 @@ resource "proxmox_vm_qemu" "vms" {
   for_each    = { for vm in var.vms : vm.name => vm }
 
   name        = each.value.name
+  vmid       = each.value.vm_id
   target_node = each.value.target_node
   clone       = each.value.clone_template
   full_clone  = each.value.full_clone
@@ -105,4 +106,6 @@ resource "proxmox_vm_qemu" "vms" {
   boot         = "c"
   bootdisk     = each.value.bootdisk
   scsihw       = each.value.scsihw
+
+
 }

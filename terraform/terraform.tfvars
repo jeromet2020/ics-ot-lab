@@ -1,8 +1,9 @@
 vms = [
   {
-    name           = "jt-win10-a"
-    target_node    = "pve"
-    clone_template = "win10-ci"
+    name           = "XS-ENT-WIN-10a"
+    vm_id           = 90020
+    target_node    = "ks"
+    clone_template = "T1-template-Win10-ci"
     full_clone     = false
     cores          = 2
     sockets        = 1
@@ -10,16 +11,16 @@ vms = [
     memory         = 2048
     disk_type      = "scsi"
     disk_size      = "32G"
-    disk_storage   = "local-lvm"
+    disk_storage   = "local-zfs"
     nic_model      = "virtio"
     nic0_bridge    = "vmbr2"
     nic0_tag       = 1
-    nic1_bridge    = "vmbr2"
-    nic1_tag       = 2
+    nic1_bridge    = ""
+    nic1_tag       = 0
     nic2_bridge    = ""
     nic2_tag       = 0
     ipconfig0      = "ip=192.168.10.101/24,gw=192.168.10.1"
-    ipconfig1      = "ip=192.168.11.101/24,gw=192.168.11.1"
+    ipconfig1      = ""
     ipconfig2      = ""
     nameserver     = "8.8.8.8"
     searchdomain   = "mydomain.local"
@@ -29,26 +30,177 @@ vms = [
     scsihw         = "virtio-scsi-single"
   },
   {
-    name           = "jt-win10-b"
-    target_node    = "pve"
-    clone_template = "win10-ci"
+    name           = "XS-ENT-WIN-10b"
+    vm_id           = 90021
+    target_node    = "ks"
+    clone_template = "T1-template-Win10-ci"
     full_clone     = false
     cores          = 2
     sockets        = 1
     cpu_type       = "kvm64"
-    memory         = 1028
+    memory         = 2048
     disk_type      = "scsi"
     disk_size      = "32G"
-    disk_storage   = "local-lvm"
+    disk_storage   = "local-zfs"
     nic_model      = "virtio"
     nic0_bridge    = "vmbr2"
     nic0_tag       = 1
-    nic1_bridge    = "vmbr2"
-    nic1_tag       = 2
+    nic1_bridge    = ""
+    nic1_tag       = 0
     nic2_bridge    = ""
     nic2_tag       = 0
-    ipconfig0      = "ip=192.168.12.101/24,gw=192.168.12.1"
-    ipconfig1      = "ip=192.168.13.101/24,gw=192.168.13.1"
+    ipconfig0      = "ip=10.21.5.30/24,gw=10.21.5.1"
+    ipconfig1      = ""
+    ipconfig2      = ""
+    nameserver     = "8.8.8.8"
+    searchdomain   = "mydomain.local"
+    username       = "Administrator"
+    password       = "P@ssw0rd$"
+    bootdisk       = "scsi0"
+    scsihw         = "virtio-scsi-single"
+  },
+  {
+    name           = "XS-ENT-WIN-10c"
+    vm_id           = 90022
+    target_node    = "ks"
+    clone_template = "T1-template-Win10-ci"
+    full_clone     = false
+    cores          = 2
+    sockets        = 1
+    cpu_type       = "kvm64"
+    memory         = 2048
+    disk_type      = "scsi"
+    disk_size      = "32G"
+    disk_storage   = "local-zfs"
+    nic_model      = "virtio"
+    nic0_bridge    = "vmbr2"
+    nic0_tag       = 1
+    nic1_bridge    = ""
+    nic1_tag       = 0
+    nic2_bridge    = ""
+    nic2_tag       = 0
+    ipconfig0      = "ip=10.21.5.31/24,gw=10.21.5.1"
+    ipconfig1      = ""
+    ipconfig2      = ""
+    nameserver     = "8.8.8.8"
+    searchdomain   = "mydomain.local"
+    username       = "Administrator"
+    password       = "P@ssw0rd$"
+    bootdisk       = "scsi0"
+    scsihw         = "virtio-scsi-single"
+  },
+  {
+    name           = "XS-ENT-AD"
+    vm_id           = 90023
+    target_node    = "ks"
+    clone_template = "T1-template-Win2019-ci"
+    full_clone     = false
+    cores          = 2
+    sockets        = 1
+    cpu_type       = "kvm64"
+    memory         = 4096
+    disk_type      = "scsi"
+    disk_size      = "32G"
+    disk_storage   = "local-zfs"
+    nic_model      = "virtio"
+    nic0_bridge    = "vmbr2"
+    nic0_tag       = 1
+    nic1_bridge    = ""
+    nic1_tag       = 0
+    nic2_bridge    = ""
+    nic2_tag       = 0
+    ipconfig0      = "ip=10.21.5.32/24,gw=10.21.5.1"
+    ipconfig1      = ""
+    ipconfig2      = ""
+    nameserver     = "8.8.8.8"
+    searchdomain   = "mydomain.local"
+    username       = "Administrator"
+    password       = "P@ssw0rd$"
+    bootdisk       = "scsi0"
+    scsihw         = "virtio-scsi-single"
+  },
+  {
+    name           = "XS-ENT-IIS"
+    vm_id           = 90024
+    target_node    = "ks"
+    clone_template = "T1-template-Win2019-ci"
+    full_clone     = false
+    cores          = 2
+    sockets        = 1
+    cpu_type       = "kvm64"
+    memory         = 4096
+    disk_type      = "scsi"
+    disk_size      = "32G"
+    disk_storage   = "local-zfs"
+    nic_model      = "virtio"
+    nic0_bridge    = "vmbr2"
+    nic0_tag       = 1
+    nic1_bridge    = ""
+    nic1_tag       = 0
+    nic2_bridge    = ""
+    nic2_tag       = 0
+    ipconfig0      = "ip=10.21.5.33/24,gw=10.21.5.1"
+    ipconfig1      = ""
+    ipconfig2      = ""
+    nameserver     = "8.8.8.8"
+    searchdomain   = "mydomain.local"
+    username       = "Administrator"
+    password       = "P@ssw0rd$"
+    bootdisk       = "scsi0"
+    scsihw         = "virtio-scsi-single"
+  },
+  {
+    name           = "XS-ENT-SQL"
+    vm_id           = 90025
+    target_node    = "ks"
+    clone_template = "T1-template-Win2019-ci"
+    full_clone     = false
+    cores          = 2
+    sockets        = 1
+    cpu_type       = "kvm64"
+    memory         = 4096
+    disk_type      = "scsi"
+    disk_size      = "32G"
+    disk_storage   = "local-zfs"
+    nic_model      = "virtio"
+    nic0_bridge    = "vmbr2"
+    nic0_tag       = 1
+    nic1_bridge    = ""
+    nic1_tag       = 0
+    nic2_bridge    = ""
+    nic2_tag       = 0
+    ipconfig0      = "ip=10.21.5.34/24,gw=10.21.5.1"
+    ipconfig1      = ""
+    ipconfig2      = ""
+    nameserver     = "8.8.8.8"
+    searchdomain   = "mydomain.local"
+    username       = "Administrator"
+    password       = "P@ssw0rd$"
+    bootdisk       = "scsi0"
+    scsihw         = "virtio-scsi-single"
+  },
+  {
+    name           = "XS-RDP-GW"
+    vm_id           = 90026
+    target_node    = "ks"
+    clone_template = "T1-template-Win2019-ci"
+    full_clone     = false
+    cores          = 2
+    sockets        = 1
+    cpu_type       = "kvm64"
+    memory         = 4096
+    disk_type      = "scsi"
+    disk_size      = "32G"
+    disk_storage   = "local-zfs"
+    nic_model      = "virtio"
+    nic0_bridge    = "vmbr2"
+    nic0_tag       = 1
+    nic1_bridge    = ""
+    nic1_tag       = 0
+    nic2_bridge    = ""
+    nic2_tag       = 0
+    ipconfig0      = "ip=10.21.5.35/24,gw=10.21.5.1"
+    ipconfig1      = ""
     ipconfig2      = ""
     nameserver     = "8.8.8.8"
     searchdomain   = "mydomain.local"

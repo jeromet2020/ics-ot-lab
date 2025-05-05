@@ -1,6 +1,7 @@
 variable "vms" {
   type = list(object({
     name           = string
+    vm_id          = number
     target_node    = string
     clone_template = string
     full_clone     = bool
