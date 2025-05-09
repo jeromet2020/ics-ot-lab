@@ -8,6 +8,7 @@
 * Disable hibernation/standby (For Windows 10/11 installations)
 * Clone machine to prevent reinstallation if something is not working correctly.
 * Add keyboard layout suitable to your language.
+* Set the Advanced System Settings to "Adjust for best performance".
 * Install virtio drivers
 * Install Guest Agent.
 * Install Google Chrome.
@@ -64,9 +65,12 @@ C:\Windows\System32\sysprep\sysprep.exe /generalize /oobe /unattend:Unattend.xml
 * Remove cdrom devices
 * Add CloudInit Drive
 * Save the VM as template
-* Test the template by doing the following:
-    * Clone the template VM.
-    * Go to the VM's Cloud-Init configuration and set the username as Administrator, set the password, IP, and DNS settings.
-    * Start the newly created VM.
-    * Verify if the configuration has taken effect on the OS.
+
+
+Deploy the template by doing the following:
+
+* Clone the template VM.
+* Go to the VM's Cloud-Init configuration on Proxmox and set the username as Administrator, set the password, IP, and DNS settings.
+* Start the newly created VM.
+* Verify if the configuration has taken effect on the OS.
 
