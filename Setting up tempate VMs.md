@@ -67,7 +67,36 @@ C:\Windows\System32\sysprep\sysprep.exe /generalize /oobe /unattend:Unattend.xml
 * Save the VM as template
 
 
-Deploy the template by doing the following:
+## Ubuntu
+```
+sudo apt update
+sudo apt install cloud-init -y
+apt install qemu-guest-agent -y
+```
+
+Create a file /etc/cloud/cloud.cfg.d/99-proxmox.cfg containing:
+```
+datasource_list: [ NoCloud, ConfigDrive, OVF ]
+```
+
+Enable cloud-init on boot:
+```
+sudo systemctl enable cloud-init
+sudo systemctl enable cloud-config
+sudo systemctl enable cloud-final
+```
+
+Clean the image:
+```
+sudo cloud-init clean
+```
+
+* Remove cdrom devices
+* Add CloudInit Drive
+* Save the VM as template
+
+
+## Deploy the template by doing the following:
 
 * Clone the template VM.
 * Go to the VM's Cloud-Init configuration on Proxmox and set the username as Administrator, set the password, IP, and DNS settings.
