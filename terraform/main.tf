@@ -21,9 +21,8 @@ resource "proxmox_vm_qemu" "vms" {
   clone       = each.value.clone_template
   full_clone  = each.value.full_clone
 
-  agent       = 1
+  #agent       = 1
   onboot      = true
-
   cores       = each.value.cores
   sockets     = each.value.sockets
   cpu         = each.value.cpu_type
