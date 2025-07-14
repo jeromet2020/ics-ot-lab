@@ -357,10 +357,14 @@
           <mxGeometry x="984.91" y="1195.44" width="143.75" height="29.89" as="geometry" />
         </mxCell>
         <mxCell id="VzEyl7pLeXNEImk8ZBch-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" parent="1" source="VzEyl7pLeXNEImk8ZBch-144" target="VzEyl7pLeXNEImk8ZBch-147" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="668" y="1344" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="VzEyl7pLeXNEImk8ZBch-144" value="PLC1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Defender_PLC.svg;" parent="1" vertex="1">
-          <mxGeometry x="647.79" y="1324.05" width="40" height="40" as="geometry" />
+        <mxCell id="VzEyl7pLeXNEImk8ZBch-144" value="PLC" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Defender_PLC.svg;" parent="1" vertex="1">
+          <mxGeometry x="605" y="1324.05" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VzEyl7pLeXNEImk8ZBch-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" parent="1" source="VzEyl7pLeXNEImk8ZBch-132" target="VzEyl7pLeXNEImk8ZBch-145" edge="1">
           <mxGeometry relative="1" as="geometry">
