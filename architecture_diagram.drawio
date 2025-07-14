@@ -497,7 +497,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IQLM45mMpvAPXMHOFs8m-3" value="ENT-ONION" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;" vertex="1" parent="1">
+        <mxCell id="IQLM45mMpvAPXMHOFs8m-3" value="SECURITY&lt;div&gt;ONION&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;" vertex="1" parent="1">
           <mxGeometry x="566.82" y="572.59" width="20" height="39" as="geometry" />
         </mxCell>
         <mxCell id="IQLM45mMpvAPXMHOFs8m-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.854;entryY=0.459;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="a8CHna9Du4veWzm3w8Nn-5" target="VzEyl7pLeXNEImk8ZBch-58">
@@ -520,12 +520,12 @@
         <mxCell id="IQLM45mMpvAPXMHOFs8m-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="IQLM45mMpvAPXMHOFs8m-11" target="a8CHna9Du4veWzm3w8Nn-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="653" />
+              <mxPoint x="530" y="653" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IQLM45mMpvAPXMHOFs8m-11" value="ENT-SIEM" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_server_blue;" vertex="1" parent="1">
-          <mxGeometry x="524.71" y="677.35" width="33" height="44" as="geometry" />
+        <mxCell id="IQLM45mMpvAPXMHOFs8m-11" value="ENT-SPLUNK" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_server_blue;" vertex="1" parent="1">
+          <mxGeometry x="515.9300000000001" y="671.69" width="33" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
