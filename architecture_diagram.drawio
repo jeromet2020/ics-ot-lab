@@ -355,6 +355,12 @@
         <mxCell id="VzEyl7pLeXNEImk8ZBch-141" value="SCADA" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fontStyle=1;fillColor=#FFF5F5;strokeColor=#C0392B;" parent="1" vertex="1">
           <mxGeometry x="984.91" y="1234.44" width="143.75" height="29.89" as="geometry" />
         </mxCell>
+        <mxCell id="VzEyl7pLeXNEImk8ZBch-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" parent="1" source="VzEyl7pLeXNEImk8ZBch-142" target="VzEyl7pLeXNEImk8ZBch-147" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VzEyl7pLeXNEImk8ZBch-142" value="PLC2" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Defender_PLC.svg;" parent="1" vertex="1">
+          <mxGeometry x="759.2199999999999" y="1360" width="40" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="VzEyl7pLeXNEImk8ZBch-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" parent="1" source="VzEyl7pLeXNEImk8ZBch-144" target="VzEyl7pLeXNEImk8ZBch-147" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
